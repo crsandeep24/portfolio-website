@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
 :root {
   --primary-white: #fff;
+  --primary-orange: #f9ab00;
 }
 body {
   font-family: "Roboto Condensed" sans-serif;
 }
 
 .logo {
-  width: 16.25rem;
+  width: 5.25rem;
 }
 
 nav a.nav-link {
@@ -22,4 +23,28 @@ nav ui li {
 
 .navbar-nav > li > a {
   color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 2 !important;
+  height: 4rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.header-wrapper {
+  position: relative;
+  background: url(wall-background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
