@@ -20,24 +20,9 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
-          Contact Me
-        </a>
+        <a className="btn-main-offer">Contact Me</a>
       </div>
     </div>
-
-    // <main>
-    //   <img
-    //     src={bgimage}
-    //     alt="background-image"
-    //     className="absolute object-cover w-full h-full"
-    //   />
-    //   <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-    //     <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug">
-    //       Hello Sandeep
-    //     </h1>
-    //   </section>
-    // </main>
   );
 };
 

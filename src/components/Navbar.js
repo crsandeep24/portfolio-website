@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-navbar">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand">
           <img className="logo" src={logo} alt="put the logo here" />
         </a>
         <button
@@ -30,24 +30,18 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <a className="nav-link">Link</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                My work
-              </a>
+              <a className="nav-link">My work</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact Me
-              </a>
+              <a className="nav-link">Contact Me</a>
             </li>
           </ul>
         </div>
